@@ -416,3 +416,21 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Unreal Engine 필수 제외 항목
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Visual Studio 및 빌드 관련
+.vs/
+*.sln
+*.sdf
+*.suo
+*.VC.db
+*.opensdf
+
+# 프로젝트 선택적 제외 (개인 설정)
+Build/
+FileOpenOrder/
